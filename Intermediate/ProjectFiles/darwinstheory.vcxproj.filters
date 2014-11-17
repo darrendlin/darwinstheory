@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\darwinstheory.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{DE630760-CFD2-4AB9-8FFC-CCCE96726977}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\darwinstheory.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\darwinstheoryEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{D39B1D71-1FD7-4399-A06F-E3212593FBE0}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\darwinstheory">
+			<UniqueIdentifier>{9B652958-0AE6-4355-AAA6-B6AEFD030B1C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\darwinstheory\darwinstheory.Build.cs">
+			<Filter>Source\darwinstheory</Filter>
+		</None >
+		<Filter Include="Source\darwinstheory\Private">
+			<UniqueIdentifier>{F7D3A809-289A-441E-A0C6-40A1D3824265}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\darwinstheory\Private\darwinstheory.cpp">
+			<Filter>Source\darwinstheory\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\darwinstheory\Private\darwinstheoryCharacter.cpp">
+			<Filter>Source\darwinstheory\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\darwinstheory\Private\darwinstheoryGameMode.cpp">
+			<Filter>Source\darwinstheory\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\darwinstheory\Private\darwinstheoryHUD.cpp">
+			<Filter>Source\darwinstheory\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\darwinstheory\Private\darwinstheoryProjectile.cpp">
+			<Filter>Source\darwinstheory\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\darwinstheory\Public">
+			<UniqueIdentifier>{95F0F5BA-2104-44FC-B8DC-3201F932376F}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\darwinstheory\Public\darwinstheory.h">
+			<Filter>Source\darwinstheory\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\darwinstheory\Public\darwinstheoryCharacter.h">
+			<Filter>Source\darwinstheory\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\darwinstheory\Public\darwinstheoryGameMode.h">
+			<Filter>Source\darwinstheory\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\darwinstheory\Public\darwinstheoryHUD.h">
+			<Filter>Source\darwinstheory\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\darwinstheory\Public\darwinstheoryProjectile.h">
+			<Filter>Source\darwinstheory\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\darwinstheory\Resources">
+			<UniqueIdentifier>{D2E3A215-704D-4A82-BCE2-B15B21DF9380}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Source\darwinstheory\Resources\Windows">
+			<UniqueIdentifier>{6427FFF5-0730-4EB7-A242-2C480FF1ADD8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\darwinstheory\Resources\Windows\darwinstheory.ico">
+			<Filter>Source\darwinstheory\Resources\Windows</Filter>
+		</None >
+		<ResourceCompile Include="..\..\Source\darwinstheory\Resources\Windows\darwinstheory.rc">
+			<Filter>Source\darwinstheory\Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>
